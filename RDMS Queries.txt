@@ -1,0 +1,40 @@
+->show databases;
+(*)to check all available databases.
+
+->create database <database_name>;
+(*)to create a databases.
+
+->drop database <database_name>;
+(*)to delete a database
+
+->use <database name>;
+(*)to work in particlar table.
+
+->show tables;
+(*)to check all available tables in database.
+
+->create table <table_name> 
+   (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   );
+(*)to create a table in a database.
+
+->drop table <table_name>;
+(*)to delete table available in database.
+
+->insert into <table_name>(column1, column2, column3, ...);
+(*)to add data in a available table.
+
+->truncate table <table_name>;
+(*)to clear all data inputs in table.
+
+->alter table <table_name> add column_name datatype;
+(*)to add column in a table after creation of a table.
+
+->alter table <table_name> drop column <column_name>;
+(*)to delete a column available ina table.
+
+->alter tabel <table_name> rename column <old_name> to <new_name>;
+(*)to change name of a column in table.
